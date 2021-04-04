@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
+import Footer from "../components/Footer";
 import {
   homeObjOne,
   homeObjTow,
@@ -25,6 +26,7 @@ const Home = () => {
       <InfoSection {...homeObjTow} />
       <Services />
       <InfoSection {...homeObjThree} />
+      <Footer />
     </>
   );
 };

@@ -36,8 +36,8 @@ export const homeObjTow = {
 };
 export const homeObjThree = {
   id: "idk",
-  lightBg: false,
-  lightText: true,
+  lightBg: true,
+  lightText: false,
   lightTextDesc: true,
   topLine: "SITEM COMPANY",
   headline: "Lorem ipsum dolor sit amet, consectetur",
