@@ -1,10 +1,18 @@
 import emailjs from "emailjs-com";
 import React from "react";
 import {
+  ContactWrap,
   Nav,
   NavbarContainer,
   NavLogo,
   ContactUsContainer,
+  FormWrapper,
+  Title,
+  Form,
+  Input,
+  Textarea,
+  Label,
+  Button,
 } from "./contactusElements";
 const ContactUsPage = () => {
   const sendEmail = (e) => {
@@ -28,27 +36,31 @@ const ContactUsPage = () => {
     e.target.reset();
   };
   return (
-    <div>
+    <ContactWrap>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">SITEM</NavLogo>
         </NavbarContainer>
       </Nav>
-      {/* <form className="contact-form" onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="name" />
-        <label>Email</label>
-        <input type="email" name="email" />
-        <label>Subject</label>
-        <input type="text" name="subject" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send Message" />
-      </form> */}
       <ContactUsContainer>
-        <h1>contact</h1>
+        <FormWrapper>
+          <Title>Nous Contacter</Title>
+          <Form onSubmit={sendEmail}>
+            <Label>Nom</Label>
+            <Input type="text" name="name"></Input>
+            <Label>Email</Label>
+            <Input type="email" name="email"></Input>
+            <Label>Sujet</Label>
+            <Input type="text" name="subject"></Input>
+            <Label>Message</Label>
+            <Textarea type="textarea" name="message"></Textarea>
+            <Button type="submit" value="Send Message">
+              Envoyer le message
+            </Button>
+          </Form>
+        </FormWrapper>
       </ContactUsContainer>
-    </div>
+    </ContactWrap>
   );
 };
 

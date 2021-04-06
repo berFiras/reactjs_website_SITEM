@@ -3,8 +3,8 @@ export const homeObjOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
-  topLine: "Lorem ipsum dolor",
-  headline: "Lorem ipsum dolor sit amet",
+  topLine: "Agence SITEM",
+  headline: "Collaborez avec SITEM",
   description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur`,
@@ -35,7 +35,7 @@ export const homeObjTow = {
   darkText: true,
 };
 export const homeObjThree = {
-  id: "idk",
+  id: "team",
   lightBg: true,
   lightText: false,
   lightTextDesc: true,

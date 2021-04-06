@@ -24,10 +24,10 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>SITEM COMPANY</HeroH1>
+        <HeroH1>AGENCE SITEM </HeroH1>
         <HeroP>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua
+          Notre équipe est à votre écoute. Nous saurons transformer vos idées en
+          résultats !
         </HeroP>
         <HeroBtnWrapper>
           <Button
@@ -37,7 +37,7 @@ const HeroSection = () => {
             primary="true"
             dark="true"
           >
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+            Commencer {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

@@ -79,7 +79,7 @@ export const NavLinks = styled(LinkS)`
 
   &.active {
     /* todo: change color */
-    border-bottom: 3px solid #49a3da;
+    border-bottom: 4px solid #49a3da;
   }
 `;
 

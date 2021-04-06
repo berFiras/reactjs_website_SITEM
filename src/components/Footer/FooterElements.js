@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterWrap = styled.div`
-  padding: 48px 24px;
+  padding-top: 48px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,7 +61,64 @@ export const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover {
-    color: #f7f8fa;
+    color: #49a3da;
+    transition: 0.3s ease-in-out;
+  }
+`;
+export const FooterCopyRight = styled.div`
+  display: flex;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+`;
+
+export const SocialLinkWrap = styled.div`
+  color: #fff;
+  display: flex;
+  width: 200px;
+  margin-left: 43.5%;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  /* font-size: 20px; */
+`;
+
+export const FacebookLink = styled(Link)`
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #49a3da;
+    transition: 0.3s ease-in-out;
+  }
+`;
+export const InstagramLink = styled(Link)`
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #49a3da;
+    transition: 0.3s ease-in-out;
+  }
+`;
+export const LinkedInLink = styled(Link)`
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #49a3da;
+    transition: 0.3s ease-in-out;
+  }
+`;
+export const SnapLink = styled(Link)`
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    color: #49a3da;
     transition: 0.3s ease-in-out;
   }
 `;
