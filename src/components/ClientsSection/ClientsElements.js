@@ -2,22 +2,15 @@ import styled from "styled-components";
 
 export const ClientsContainer = styled.div`
   color: #000;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
   height: 360px;
   position: relative;
   width: 90%;
   display: grid;
   place-items: center;
   @media screen and (max-width: 768px) {
-    /* padding: 100px 0; */
   }
   &::before {
     content: "";
-    background: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
     height: 100%;
     position: absolute;
     width: 15%;
@@ -25,11 +18,6 @@ export const ClientsContainer = styled.div`
   }
   &::after {
     content: "";
-    background: linear-gradient(
-      to right,
-      rgba(255, 0, 0, 1),
-      rgba(255, 0, 0, 0) 100%
-    );
     height: 100%;
     position: absolute;
     width: 15%;
@@ -63,13 +51,13 @@ export const Slide = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 100%;
-  height: 70%;
+  width: 70%;
+  height: 60%;
   opacity: 0.5;
   filter: grayscale(100%);
   transition: transform 1s;
   &:hover {
-    transform: translateZ(20px);
+    transform: translateZ(40px);
     filter: none;
     opacity: 1;
   }

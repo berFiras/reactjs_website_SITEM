@@ -1,8 +1,8 @@
 import React from "react";
 import Icon1 from "../../images/svg-1.svg";
 import Icon2 from "../../images/svg-11.svg";
-import Icon3 from "../../images/svg-111.svg";
-import Icon4 from "../../images/svg-111.svg";
+import Icon3 from "../../images/svg-1111.svg";
+import Icon4 from "../../images/svg-11111.svg";
 import {
   ServicesContainer,
   ServicesH1,
@@ -19,29 +19,29 @@ function Services() {
       <ServicesH1>Our Services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>alalalal</ServicesH2>
-          <ServicesP>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>alalalal</ServicesH2>
-          <ServicesP>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>alalalal</ServicesH2>
+          <ServicesH2>Community Management</ServicesH2>
           <ServicesP>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon4} />
-          <ServicesH2>alalalal</ServicesH2>
+          <ServicesH2>Développement Web</ServicesH2>
+          <ServicesP>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon1} />
+          <ServicesH2>Graphique Design</ServicesH2>
+          <ServicesP>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
+          </ServicesP>
+        </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon3} />
+          <ServicesH2>E-marketing</ServicesH2>
           <ServicesP>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit{" "}
           </ServicesP>

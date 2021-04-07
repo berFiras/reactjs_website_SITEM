@@ -7,11 +7,13 @@ import {
   homeObjTow,
   homeObjThree,
 } from "../components/InfoSection/Data";
+// import { teamObjOne } from "../components/Team/Data";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
 import ClientsSection from "../components/ClientsSection";
 import { clientObjOne } from "../components/ClientsSection/Data";
+import Team from "../components/Team";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -25,7 +27,8 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTow} />
-      <InfoSection {...homeObjThree} />
+      <Team />
+      {/* <InfoSection {...homeObjThree} /> */}
       <Services />
       <ClientsSection {...clientObjOne} />
       <Footer />
