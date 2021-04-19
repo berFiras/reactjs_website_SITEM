@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import {
   homeObjOne,
   homeObjTow,
-  homeObjThree,
+  // homeObjThree,
 } from "../components/InfoSection/Data";
 // import { teamObjOne } from "../components/Team/Data";
 import Navbar from "../components/Navbar";
@@ -13,7 +13,8 @@ import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
 import ClientsSection from "../components/ClientsSection";
 import { clientObjOne } from "../components/ClientsSection/Data";
-import Team from "../components/Team";
+import Price from "../components/price";
+// import Team from "../components/Team";
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -26,10 +27,11 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTow} />
-      <Team />
-      {/* <InfoSection {...homeObjThree} /> */}
       <Services />
+      <Price />
+      <InfoSection {...homeObjTow} />
+      {/* <Team /> */}
+      {/* <InfoSection {...homeObjThree} /> */}
       <ClientsSection {...clientObjOne} />
       <Footer />
     </>

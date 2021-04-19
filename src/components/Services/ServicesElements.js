@@ -1,12 +1,13 @@
 import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
 
 export const ServicesContainer = styled.div`
-  height: 700px;
+  height: 850px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #000;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -17,15 +18,15 @@ export const ServicesContainer = styled.div`
 `;
 
 export const ServicesWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 850px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 850px) {
     grid-template-columns: 1fr 1fr;
   }
   @media screen and (max-width: 768px) {
@@ -36,6 +37,7 @@ export const ServicesWrapper = styled.div`
 
 export const ServicesCard = styled.div`
   background: #fff;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,22 +51,42 @@ export const ServicesCard = styled.div`
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
+    border: solid 5px #2a65b0;
     cursor: pointer;
   }
 `;
 
 export const ServicesIcon = styled.img`
-  height: 160px;
-  width: 160px;
+  height: 120px;
+  width: 120px;
   margin-bottom: 10px;
 `;
 export const ServicesH1 = styled.h1`
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   color: #fff;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
+  }
+`;
+export const CardButton = styled(LinkR)`
+  background: #49a3da;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    color: #000;
+    background: #fff;
+    border: solid 2px #49a3da;
   }
 `;
 
@@ -74,6 +96,6 @@ export const ServicesH2 = styled.h2`
 `;
 
 export const ServicesP = styled.p`
-  font-size: 1rem;
-  text-align: center;
+  font-size: 0.75rem;
+  text-align: start;
 `;

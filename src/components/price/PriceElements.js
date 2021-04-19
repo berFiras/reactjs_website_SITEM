@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const CardsContainer = styled.div`
-  height: 800px;
+export const PriceContainer = styled.div`
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,22 +15,17 @@ export const CardsContainer = styled.div`
     height: 1300px;
   }
 `;
-export const CardsH1 = styled.h1`
-  color: #fff;
-  font-size: 1rem;
-  margin-bottom: 10px;
-`;
 
-export const TeamsWrapper = styled.div`
-  /* max-width: 1000px; */
-  margin: 10px;
+export const PriceWrapper = styled.div`
+  max-width: 850px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   grid-gap: 16px;
-  padding: 0 50px;
+  /* padding: 0 50px; */
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 850px) {
     grid-template-columns: 1fr 1fr;
   }
   @media screen and (max-width: 768px) {
@@ -38,7 +33,16 @@ export const TeamsWrapper = styled.div`
     padding: 0 20px;
   }
 `;
-export const TeamsCard = styled.div`
+export const PriceH1 = styled.h1`
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 64px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
+`;
+export const PriceCard = styled.div`
   background: #000;
   color: #fff;
   display: flex;
@@ -46,32 +50,29 @@ export const TeamsCard = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  max-height: 340px;
+  height: 450px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.09);
-    /* border: 2px blue solid; */
-    margin-bottom: 80px;
-    box-shadow: 0 0 50px #49a3da;
+    transform: scale(1.02);
     transition: all 0.2s ease-in-out;
+    border: solid 5px #2a65b0;
     cursor: pointer;
   }
 `;
-export const CardsIcon = styled.img`
-  height: 160px;
-  width: 160px;
+export const PriceIcon = styled.img`
+  height: 80px;
+  width: 80px;
   margin-bottom: 10px;
 `;
-
-export const CardsH2 = styled.h2`
+export const PriceH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
 `;
 
-export const CardsP = styled.p`
+export const PriceP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;
