@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import React from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import {
   ContactWrap,
   Nav,
@@ -35,6 +36,9 @@ const ContactUsPage = () => {
       );
     e.target.reset();
   };
+  function onChange(value) {
+    console.log("Captcha value:", value);
+  }
   return (
     <ContactWrap>
       <Nav>
@@ -54,6 +58,10 @@ const ContactUsPage = () => {
             <Input type="text" name="subject"></Input>
             <Label>Message</Label>
             <Textarea type="textarea" name="message"></Textarea>
+            <ReCAPTCHA
+              sitekey="6LefwrEaAAAAAAiWf1vi4ZYT9UBvHUCr96QRXQjF"
+              onChange={onChange}
+            />
             <Button type="submit" value="Send Message">
               Envoyer le message
             </Button>

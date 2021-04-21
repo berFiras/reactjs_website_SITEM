@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const PriceContainer = styled.div`
-  height: 650px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,8 +34,9 @@ export const PriceWrapper = styled.div`
   }
 `;
 export const PriceH1 = styled.h1`
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   color: #000;
+  font-weight: bold;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
@@ -47,11 +48,11 @@ export const PriceCard = styled.div`
   color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   border-radius: 10px;
   height: 450px;
-  padding: 30px;
+  padding: 30px 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 
@@ -68,11 +69,28 @@ export const PriceIcon = styled.img`
   margin-bottom: 10px;
 `;
 export const PriceH2 = styled.h2`
-  font-size: 1rem;
-  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+`;
+export const PriceH3 = styled.h3`
+  /* text-transform: uppercase; */
+  font-size: 0.9rem;
+  margin-bottom: 50px;
 `;
 
 export const PriceP = styled.p`
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
+`;
+export const List = styled.ul`
+  margin-top: 20%;
+  margin-left: 25px;
+  list-style: none;
+  padding: 0;
+`;
+
+export const ListItem = styled.li`
+  font-size: 1.1rem;
+  margin-bottom: 25px;
 `;

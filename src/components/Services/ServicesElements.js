@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 
 export const ServicesContainer = styled.div`
-  height: 850px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   topLine: "Agence SITEM",
   headline: "Collaborez avec SITEM",
-  description: `Fondée en 2017, SITEM est une agence digitale dynamique spécialisée dans le Content Marketing , le Social Media Management et le développement web.
+  description: `Fondée en 2018, SITEM est une agence digitale dynamique spécialisée dans le Content Marketing , le Social Media Management et le développement web.
   Nous accompagnons les marques dans le développement de leur visibilité et l’amélioration de leur image à travers des services personnalisés et un suivi quotidien.`,
   buttonLabel: "Commencer",
   imgStart: false,
@@ -20,18 +20,20 @@ export const homeObjTow = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Lorem ipsum",
-  headline: "Lorem ipsum dolor sit amet, consectetur",
-  description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur`,
-  buttonLabel: "Learn More",
+  topLine: "Pourquoi nous confier votre projet ?",
+  headline: " ",
+  description: `Les qualités premières de notre agence sont l’écoute du client, la vision d’ensemble,
+   la capacité à transposer en actions de communication la stratégie de ses clients.
+   Faire appel à notre agence community management vous permet de mieux vous faire comprendre et entendre de vos clients.
+   construit pour vous une stratégie de marketing social media établie sur la base d’un choix pertinent en termes de réseaux sociaux adaptés à votre entreprise, 
+   ainsi qu’un planning éditorial et de diffusion adéquat au comportement de votre communauté.`,
+  buttonLabel: "Contactez Nous",
   imgStart: true,
   img: require("../../images/svg-11.svg").default,
   alt: "discover",
   dark: false,
   primary: true,
-  darkText: true,
+  darkText: false,
 };
 export const homeObjThree = {
   id: "team",

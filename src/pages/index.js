@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ScrollUpButton from "react-scroll-up-button";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import Footer from "../components/Footer";
@@ -23,6 +24,7 @@ const Home = () => {
   };
   return (
     <>
+      <ScrollUpButton style={{ backgroundColor: "#49a3da" }} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />

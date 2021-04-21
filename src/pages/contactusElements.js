@@ -93,6 +93,7 @@ export const Textarea = styled.textarea`
   border: none;
   padding: 5%;
   border-radius: 15px;
+  margin-bottom: 10px;
   &:focus {
     box-shadow: 0 0 50px #49a3da;
   }
