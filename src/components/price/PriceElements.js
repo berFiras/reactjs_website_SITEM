@@ -12,7 +12,7 @@ export const PriceContainer = styled.div`
     height: 1100px;
   }
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1100px;
   }
 `;
 
@@ -41,6 +41,7 @@ export const PriceH1 = styled.h1`
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
+    margin-bottom: 10px;
   }
 `;
 export const PriceCard = styled.div`
@@ -62,6 +63,10 @@ export const PriceCard = styled.div`
     border: solid 5px #2a65b0;
     cursor: pointer;
   }
+  @media screen and (max-width: 480px) {
+    height: 320px;
+    padding: 20px 0px;
+  }
 `;
 export const PriceIcon = styled.img`
   height: 80px;
@@ -72,25 +77,44 @@ export const PriceH2 = styled.h2`
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-bottom: 20px;
+  @media screen and (max-width: 480px) {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
 `;
 export const PriceH3 = styled.h3`
   /* text-transform: uppercase; */
   font-size: 0.9rem;
   margin-bottom: 50px;
+  @media screen and (max-width: 480px) {
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+  }
 `;
 
 export const PriceP = styled.p`
   font-size: 0.9rem;
   text-align: center;
+  @media screen and (max-width: 480px) {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+  }
 `;
 export const List = styled.ul`
   margin-top: 20%;
   margin-left: 25px;
   list-style: none;
   padding: 0;
+  @media screen and (max-width: 480px) {
+    margin-top: 10%;
+  }
 `;
 
 export const ListItem = styled.li`
   font-size: 1.1rem;
   margin-bottom: 25px;
+  @media screen and (max-width: 480px) {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
 `;

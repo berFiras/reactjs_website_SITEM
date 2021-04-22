@@ -60,6 +60,9 @@ export const ServicesIcon = styled.img`
   height: 120px;
   width: 120px;
   margin-bottom: 10px;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 export const ServicesH1 = styled.h1`
   font-size: 2.6rem;

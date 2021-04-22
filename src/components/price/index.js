@@ -4,7 +4,7 @@ import {
   PriceH1,
   PriceWrapper,
   PriceCard,
-  PriceIcon,
+  // PriceIcon,
   PriceH2,
   PriceP,
   List,
