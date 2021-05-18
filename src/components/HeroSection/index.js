@@ -26,8 +26,8 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>AGENCE SITEM </HeroH1>
         <HeroP>
-          Notre équipe est à votre écoute. Nous saurons transformer vos idées en
-          résultats !
+          Voulez-vous doubler votre chiffre d'affaires? Confiez votre présence
+          digitale à SITEM!
         </HeroP>
         <HeroBtnWrapper>
           <Button

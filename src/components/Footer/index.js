@@ -34,13 +34,14 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Contacts</FooterLinkTitle>
               <FooterLink to="/">
-                <FaPhone /> +2163333333
+                <FaPhone /> +33 1 71 85 45 33
               </FooterLink>
               <FooterLink to="/">
-                <FaMailBulk /> Sitem@Sitem.com
+                <FaMailBulk /> contact@k2group.fr
               </FooterLink>
               <FooterLink to="/">
-                <FaMapMarkerAlt /> Ajim Djerba
+                <FaMapMarkerAlt /> 7 RUE JEAN BAPTISTE SAY 21800 CHEVIGNY ST
+                SAUVEUR
               </FooterLink>
               <FooterLink to="/">
                 <FaClock /> Lun - Ven 09.00 - 18.00h
@@ -48,10 +49,11 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Services</FooterLinkTitle>
-              <FooterLink to="/">Développement Web</FooterLink>
-              <FooterLink to="/">E-marketing</FooterLink>
-              <FooterLink to="/">Graphique Design</FooterLink>
               <FooterLink to="/">Community Management</FooterLink>
+              <FooterLink to="/">Développement Web</FooterLink>
+              <FooterLink to="/">Offre emailing</FooterLink>
+              <FooterLink to="/">Référencement site web</FooterLink>
+              <FooterLink to="/">Création de contenu</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>

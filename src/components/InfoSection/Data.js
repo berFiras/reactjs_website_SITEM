@@ -4,9 +4,10 @@ export const homeObjOne = {
   lightText: false,
   lightTextDesc: true,
   topLine: "Agence SITEM",
-  headline: "Collaborez avec SITEM",
-  description: `Fondée en 2018, SITEM est une agence digitale dynamique spécialisée dans le Content Marketing , le Social Media Management et le développement web.
-  Nous accompagnons les marques dans le développement de leur visibilité et l’amélioration de leur image à travers des services personnalisés et un suivi quotidien.`,
+  headline: "Bienvenue chez SITEM!",
+  description: `Nous sommes le partenaire idéal pour booster votre marque sur le web. Nous vous assurons proximité et disponibilité dans l’élaboration de vos projets digitaux.
+  Nous vous accompagnons dans le développement de votre visibilité et l’amélioration de votre image pour attirer de nouveaux clients, 
+  faire revenir vos anciens visiteurs et générer plus de ventes, à travers des services personnalisés et un suivi quotidien.`,
   buttonLabel: "Commencer",
   imgStart: false,
   img: require("../../images/svg-111.svg").default,

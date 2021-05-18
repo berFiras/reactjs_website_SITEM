@@ -26,9 +26,11 @@ function Services() {
           <ServicesIcon src={Icon2} />
           <ServicesH2>Community Management</ServicesH2>
           <ServicesP>
-            Notre agence SITEM s’occupe pour vous d’interagir avec vos
-            communautés, de les élargir en convertissant des internautes
-            influents et de produire le contenu requis pour les animer.
+            Confiez l'atteinte de vos objectifs à des experts en social média
+            Notre objectif est de vous accompagner dans la mise en place d’une
+            stratégie digitale complète afin de booster l’engagement de votre
+            communauté, menant ainsi à une notoriété plus élevée et étendue de
+            votre marque.
           </ServicesP>
           {/* <CardButton>Learn More</CardButton> */}
         </ServicesCard>
@@ -36,10 +38,13 @@ function Services() {
           <ServicesIcon src={Icon4} />
           <ServicesH2>Développement Web</ServicesH2>
           <ServicesP>
-            Nous développons des sites internet qui associent créativité,
-            technologie de pointe et facilité d’utilisation. Que vous souhaitiez
-            informer, communiquer, vendre ou recruter, SITEM, votre agence de
-            solutions digitales, conçoit votre site sur-mesure.
+            SITEM s'occupe de la conception et du développement de sites
+            internet spécialement adapté à vos besoins et aux attentes de votre
+            audience. Nous sommes une équipe enthousiaste composée de
+            développeurs talentueux, de concepteurs web créatifs, et de
+            stratèges expérimentés. Nous adaptons le choix de la technologie de
+            développement en fonction de vos besoins et objectifs pour vous
+            offrir la solution la plus performante.
           </ServicesP>
           {/* <CardButton>Learn More</CardButton> */}
         </ServicesCard>
@@ -47,21 +52,27 @@ function Services() {
           <ServicesIcon src={Icon1} />
           <ServicesH2>Graphique Design</ServicesH2>
           <ServicesP>
-            L’agence SITEM met à votre disposition un département artistique et
-            Créa pour surfer sur l’ensemble des spécifications du métier CM : le
-            design destiné aux RS, design Web, design print. Nous prenons aussi
-            en charge la couverture visuelle (Photos) et audiovisuelle (Vidéos).
+            Pour vos besoins en graphisme, en design graphique, en conception et
+            en création, Sitem vous accompagne durant vos démarches en
+            communication digitale et vous propose le bon choix selon vos
+            besoins et votre budget. Nous traduisons vos valeurs, vos ambitions
+            et votre activité en une identité visuelle unique et porteuse de
+            sens.
           </ServicesP>
           {/* <CardButton>Learn More</CardButton> */}
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon7} />
-          <ServicesH2>Stratégie marketing digital</ServicesH2>
+          <ServicesH2>Offre emailing</ServicesH2>
           <ServicesP>
-            SITEM, votre agence digitale, vous offre un conseil en stratégie
-            digitale pour challenger votre modèle économique et vous préconise
-            la stratégie marketing adaptée qui suscitera le désir de votre
-            audience cible.
+            L’emailing fait partie des axes principaux du marketing digital et
+            vous permet de renseigner votre audience cible à propos de vos
+            nouveaux produits et vos dernières promotions. Selon le besoin de
+            votre entreprise SITEM conçoit et rédige votre emailing et vous
+            garantit un service de qualité qui s’adapte à votre stratégie web
+            marketing et vous propose un service emailing qui simplifie l’envoi
+            d’un email promotionnel ou publicitaire à un grand nombre de
+            destinataires.
           </ServicesP>
           {/* <CardButton>Learn More</CardButton> */}
         </ServicesCard>
@@ -69,9 +80,11 @@ function Services() {
           <ServicesIcon src={Icon6} />
           <ServicesH2>Référencement site web</ServicesH2>
           <ServicesP>
-            SITEM vous offre une stratégie de référencement qui consiste à
-            intégrer, sur les pages de votre site web, les tendances recherchées
-            par votre cible dans votre région.
+            Dans le but d’accroitre l’audience et la fréquentation de votre
+            site, nos conseils excellent dans tous les aspects techniques du
+            référencement, optimisation des pages, structures du site,
+            évaluation des liens afin d'assurer un succès marketing à long
+            terme.
           </ServicesP>
           {/* <CardButton>Learn More</CardButton> */}
         </ServicesCard>

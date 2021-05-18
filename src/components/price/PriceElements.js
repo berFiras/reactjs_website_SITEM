@@ -37,7 +37,7 @@ export const PriceH1 = styled.h1`
   font-size: 2.6rem;
   color: #000;
   font-weight: bold;
-  margin-bottom: 64px;
+  margin-bottom: 50px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -93,6 +93,7 @@ export const PriceH3 = styled.h3`
 `;
 
 export const PriceP = styled.p`
+  display: none;
   font-size: 0.9rem;
   text-align: center;
   @media screen and (max-width: 480px) {
@@ -100,19 +101,22 @@ export const PriceP = styled.p`
     margin-bottom: 15px;
   }
 `;
+export const ListWrapper = styled.div`
+  margin-top: 30px;
+`;
 export const List = styled.ul`
-  margin-top: 20%;
-  margin-left: 25px;
-  list-style: none;
+  margin: 20px 0 0 0;
   padding: 0;
+  list-style: none;
   @media screen and (max-width: 480px) {
     margin-top: 10%;
   }
 `;
 
 export const ListItem = styled.li`
-  font-size: 1.1rem;
-  margin-bottom: 25px;
+  font-size: 0.75rem;
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
   @media screen and (max-width: 480px) {
     font-size: 0.8rem;
     margin-bottom: 20px;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 
 export const ServicesContainer = styled.div`
-  height: 900px;
+  height: 950px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,7 +43,7 @@ export const ServicesCard = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  max-height: 340px;
+  height: 400px;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
@@ -57,8 +57,8 @@ export const ServicesCard = styled.div`
 `;
 
 export const ServicesIcon = styled.img`
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   margin-bottom: 10px;
   @media screen and (max-width: 480px) {
     display: none;
@@ -99,6 +99,6 @@ export const ServicesH2 = styled.h2`
 `;
 
 export const ServicesP = styled.p`
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   text-align: start;
 `;

@@ -7,6 +7,7 @@ import {
   // PriceIcon,
   PriceH2,
   PriceP,
+  ListWrapper,
   List,
   ListItem,
   PriceH3,
@@ -19,40 +20,65 @@ const Price = () => {
         <PriceCard>
           {/* <PriceIcon /> */}
           <PriceH2>Standart </PriceH2>
-          <PriceH3>à 119€ ttc/mois</PriceH3>
+          <PriceH3>à 200 euros / mois </PriceH3>
           <PriceP>
             L'offre idéal pour les petites entreprises qui recherchent une
             présence sur les réseaux.
           </PriceP>
-          <List>
-            <ListItem>Deux actions par semaine sur deux réseaux </ListItem>
-            <ListItem>Rétroplanning Mensuel </ListItem>
-            <ListItem>Un espace client dédié</ListItem>
-          </List>
+          <ListWrapper>
+            <List>
+              <ListItem>
+                Deux publications par semaine sur 3 réseaux (Facebook,
+                instagram, snapchat).
+              </ListItem>
+              <ListItem>20 euros de budget sponsoring inclus </ListItem>
+              <ListItem>Espace client dédié </ListItem>
+            </List>
+          </ListWrapper>
         </PriceCard>
         <PriceCard>
           {/* <PriceIcon /> */}
           <PriceH2>Platinium </PriceH2>
-          <PriceH3>à 249€ ttc/mois</PriceH3>
+          <PriceH3>à 320 euros / mois </PriceH3>
           <PriceP>
             Vous souhaitez de la visibilité avec un petit budget n'hésitez plus
           </PriceP>
-          <List>
-            <ListItem>Deux actions par semaine sur deux réseaux </ListItem>
-            <ListItem>Rétroplanning Mensuel </ListItem>
-            <ListItem>Un espace client dédié</ListItem>
-          </List>
+          <ListWrapper>
+            <List>
+              <ListItem>
+                Deux publications par semaine sur 3 réseaux sociaux(Facebook,
+                instagram, snapchat).
+              </ListItem>
+              <ListItem>
+                5 posts en story par semaine sur 3 réseaux sociaux (Facebook,
+                instagram, snapchat)
+              </ListItem>
+              <ListItem>Une vidéo par mois</ListItem>
+              <ListItem>40 euros de budget sponsoring inclus </ListItem>
+              <ListItem>Espace client dédié </ListItem>
+            </List>
+          </ListWrapper>
         </PriceCard>
         <PriceCard>
           {/* <PriceIcon /> */}
           <PriceH2>Premium </PriceH2>
-          <PriceH3>à 349€ ttc/mois</PriceH3>
+          <PriceH3>à 500€ ttc/mois</PriceH3>
           <PriceP>Vous souhaitez une forte visibilité sur les réseaux</PriceP>
-          <List>
-            <ListItem>Deux actions par semaine sur deux réseaux </ListItem>
-            <ListItem>Rétroplanning Mensuel </ListItem>
-            <ListItem>Un espace client dédié</ListItem>
-          </List>
+          <ListWrapper>
+            <List>
+              <ListItem>
+                3 posts par semaine sur 3 réseaux sociaux (Facebook, instagram,
+                snapchat).
+              </ListItem>
+              <ListItem>
+                5 posts en story par semaine sur 3 réseaux (Facebook, instagram,
+                snapchat).
+              </ListItem>
+              <ListItem>Deux vidéos par mois.</ListItem>
+              <ListItem>100 euros de budget sponsoring inclus.</ListItem>
+              <ListItem>Espace client dédié. </ListItem>
+            </List>
+          </ListWrapper>
         </PriceCard>
       </PriceWrapper>
     </PriceContainer>
